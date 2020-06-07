@@ -1,3 +1,6 @@
+by 'MasterChen'
+Use Asterisk and a SIP provider to send a flood of phone calls to a target.
+
 # CallFlooder    
 Use Asterisk and a SIP provider to send a flood of phone calls to a target.
 
