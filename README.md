@@ -1,5 +1,4 @@
-# CallFlooder 
-### by ['MasterChen'](https://twitter.com/chenb0x)      
+# CallFlooder    
 Use Asterisk and a SIP provider to send a flood of phone calls to a target.
 
 #  DISCLAIMER      
@@ -8,7 +7,7 @@ THIS IS FOR EDUCATIONAL PURPOSES ONLY AND FOR STRESS TESTING YOUR OWN SYSTEM. I 
 
 Materials Needed
 ================
-+ Asterisk (tested on v1.8 and higher)      
++ Asterisk (tested on v1.8 and higher) or Free PBX      
 + SIP provider      
 + BASH      
 
@@ -23,6 +22,18 @@ The speed of calls depends on a few things.
 1. Computing power
 2. The channel limit set by your SIP provider
 
+Note: For mass effect, make multiple directories and run the script separately. Example /callflooder & /callflooder2 etc.
 
-[paypal.me/chenb0x](Donate)      
+CashApp: LynxGeekNYC (Donate)      
 If you like my work, please consider a donation of any amount. It would be greatly appreciated!
+
+INSTALLATION:
+=============
+
+For Asterisk:
+Copy flood-context.txt contents into your Asterisk Extension Configuation file
+
+For FreePBX:
+Go to Free PBX Admin, go to: Custom_extnesions.conf and copy the flood-context.txt there
+
+To dial specific number, edit the callfile.bak details
