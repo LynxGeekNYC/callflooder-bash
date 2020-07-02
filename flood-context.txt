@@ -1,4 +1,4 @@
-[radcontest]
+[callflood]
  exten => s,1,Answer
  exten => s,2,Set(CALLFILENAME=radcontest-${STRFTIME(${EPOCH},,%Y%m%d-%H%M%S)},g)
  exten => s,3,Monitor(wav,${CALLFILENAME},m)
