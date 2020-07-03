@@ -20,7 +20,9 @@ Usage
 Edit the callfile.back to edit the number you will be dialing.
 
 From your working directory:      
-`./callscript.sh <number of calls>`
+`./flood-static.sh <number of calls>` - Will flood the number with a static one CallerID number based of callfile.bak
+`./flood-all.sh <number of calls>` - Will flood the number with a random CallerID number from all over US
+`./flood-local.sh <number of calls>` Will flood the number with a random Local CallerID number from all over US based on what you have compiled in local.cpp
 
 The script runs through a loop that keeps throwing the Asterisk callfile into the outgoing directory.
 The speed of calls depends on a few things.
