@@ -49,4 +49,5 @@ Before compile local CallerID C++ file, make changes to the Prefix of the caller
 
 NOTE:
 =====
-All the recordings are stored in: '/var/spool/asterisk/monitor'
+- All the recordings are stored in: '/var/spool/asterisk/monitor'
+- By default, it plays a really annoying "spam2" Audio about buying penis enlargements. Please do some research on how to put your own audio file in. All the audio files are in ULAW format at: 'var/lib/asterisk/sounds/en'
