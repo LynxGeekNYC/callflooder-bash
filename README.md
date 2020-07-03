@@ -46,3 +46,7 @@ Go to Free PBX Admin, go to: Custom_extnesions.conf and copy the flood-context.t
 C++ File:
 There are 2 C++ Files. One is designed to generate random caller ID all over the country and one is designed to generate LOCAL Caller ID's.
 Before compile local CallerID C++ file, make changes to the Prefix of the caller ID's you will be using.
+
+NOTE:
+=====
+All the recordings are stored in: '/var/spool/asterisk/monitor'
