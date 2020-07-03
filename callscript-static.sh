@@ -7,5 +7,10 @@ do
  chown asterisk:asterisk callfile.call
  mv callfile.call /var/spool/asterisk/outgoing/
  sleep 3
- echo "Calling..."
+echo "" 
+echo -e "\e[31mCalling Victim:\e[0m"
+ sed -n 1p callfile.bak 
+echo -e "\e[31mUsing:\e[0m"
+ sed -n 2p callfile.bak
+ echo ""
 done
