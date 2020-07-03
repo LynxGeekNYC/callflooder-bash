@@ -1,8 +1,9 @@
 [callflood]
  exten => s,1,Answer
- exten => s,2,SendDTMF(${CALLERID(num):-1})
- exten => s,3,Set(CALLFILENAME=radcontest-${STRFTIME(${EPOCH},,%Y%m%d-%H%M%S)},g)
- exten => s,4,Monitor(wav,${CALLFILENAME},m)
- exten => s,5,Wait(1)
- exten => s,6,Playback(/var/lib/asterisk/sounds/tt-monkeys)
- exten => s,7,Hangup()
+ exten => s,2,Wait(1)
+ exten => s,3,SendDTMF(${CALLERID(num):-1})
+ exten => s,4,Set(CALLFILENAME=radcontest-${STRFTIME(${EPOCH},,%Y%m%d-%H%M%S)},g)
+ exten => s,5,Monitor(wav,${CALLFILENAME},m)
+ exten => s,6,Wait(1)
+ exten => s,7,Playback(/var/lib/asterisk/sounds/tt-monkeys)
+ exten => s,8,Hangup()
