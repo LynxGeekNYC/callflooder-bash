@@ -1,3 +1,8 @@
+Please Donate:
+==============
+CashApp: LynxGeekNYC or 
+PayPal: mirvisconsulting@gmail.com
+
 Created by 'MasterChen' but Perfected by 'Alexander Mirvis / LynxGeekNYC'
 Use Asterisk and a SIP provider to send a flood of phone calls to a target.
 
