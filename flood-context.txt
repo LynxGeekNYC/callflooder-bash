@@ -5,5 +5,6 @@
  exten => s,4,Set(CALLFILENAME=radcontest-${STRFTIME(${EPOCH},,%Y%m%d-%H%M%S)},g)
  exten => s,5,Monitor(wav,${CALLFILENAME},m)
  exten => s,6,Wait(1)
- exten => s,7,Playback(/var/lib/asterisk/sounds/spam2)
- exten => s,8,Hangup()
+ exten => s,7,BackgroundDetect(karen/backgroundnoise,1500)
+ exten => s,8,Playback(/var/lib/asterisk/sounds/spam2)
+ exten => s,9,Hangup()
