@@ -48,6 +48,8 @@ Copy flood-context.txt contents into your Asterisk Extension Configuation file
 For FreePBX:
 Go to Free PBX Admin, go to: Custom_extnesions.conf and copy the flood-context.txt there
 
+Upload backgroundnoise.ulaw to your Asterisk Audio directory. This file is important. It's a blank audio file. It's part of the code that detects speech before the audio is played.
+
 C++ File:
 There are 2 C++ Files. One is designed to generate random caller ID all over the country and one is designed to generate LOCAL Caller ID's.
 Before compile local CallerID C++ file, make changes to the Prefix of the caller ID's you will be using.
