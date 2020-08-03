@@ -3,6 +3,8 @@ Please Donate:
 CashApp: LynxGeekNYC or 
 PayPal: mirvisconsulting@gmail.com
 
+Also please subscribe to my YouTube Channel to see how I use this script to decimate Indian Scammers: https://www.youtube.com/channel/UCAhfUHcEm_qQzhlLw5DnDsg?view_as=subscriber
+
 Created by 'MasterChen' but Perfected by 'Alexander Mirvis / LynxGeekNYC'
 Use Asterisk and a SIP provider to send a flood of phone calls to a target.
 
